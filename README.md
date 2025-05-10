@@ -31,7 +31,7 @@ A modern web browser (Chrome, Firefox, etc.).
 Follow these steps to get the project up and running on your local machine:
 
 Clone the Repository  
-git clone https://github.com/Sarthakbhai/student-record-system.git
+git clone [https://github.com/Sarthakbhai/student-record-system.git](https://github.com/Sarthakbhai395/student-Record.git)
 cd student-record-system
 
 
@@ -102,4 +102,4 @@ Thanks to the TypeScript community for excellent documentation and resources.
 Inspired by various front-end development tutorials and TypeScript best practices.
 
 
-Built with ❤️ by [Sarthakbhai]GitHub | https://www.linkedin.com/in/sarthak-bhatnagar-801a02343/ | sarthakbhatnagar2005@gmail.com
+Built with ❤️ by [Sarthakbhai395]GitHub | https://www.linkedin.com/in/sarthak-bhatnagar-801a02343/ | sarthakbhatnagar2005@gmail.com
