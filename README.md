@@ -31,7 +31,7 @@ A modern web browser (Chrome, Firefox, etc.).
 Follow these steps to get the project up and running on your local machine:
 
 Clone the Repository  
-git clone https://github.com/your-username/student-record-system.git
+git clone https://github.com/Sarthakbhai/student-record-system.git
 cd student-record-system
 
 
