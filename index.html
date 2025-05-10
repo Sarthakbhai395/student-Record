@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Record System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .form-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .form-container input,
+    .form-container select,
+    .form-container button {
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .form-container button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+    .action-btns button {
+      margin-right: 5px;
+      padding: 5px 10px;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .edit-btn {
+      background-color: #28a745;
+    }
+    .delete-btn {
+      background-color: #dc3545;
+    }
+  </style>
+</head>
+<body>
+  <h1>Student Record System</h1>
+  <div class="form-container">
+    <input type="text" id="nameInput" placeholder="Enter name (optional)">
+    <input type="number" id="ageInput" placeholder="Enter age">
+    <select id="genderInput">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <select id="enrollmentStatusInput">
+      <option value="true">Enrolled</option>
+      <option value="false">Not Enrolled</option>
+    </select>
+    <input type="text" id="subjectInput" placeholder="Enter subject">
+    <input type="number" id="marksInput" placeholder="Enter marks">
+    <select id="scholarshipInput">
+      <option value="none">None</option>
+      <option value="partial">Partial</option>
+      <option value="full">Full</option>
+    </select>
+    <button id="addStudentBtn">Add Student</button>
+  </div>
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Enrollment Status</th>
+        <th>Subjects</th>
+        <th>Average Marks</th>
+        <th>Scholarship</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="studentTableBody"></tbody>
+  </table>
+
+  <script src="dist/index.js"></script>
+</body>
+</html>

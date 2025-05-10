@@ -1,0 +1,14 @@
+{
+  "name": "student-record-system",
+  "version": "1.0.0",
+  "description": "A simple student record system",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.8.3"
+  }
+}
