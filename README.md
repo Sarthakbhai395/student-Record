@@ -95,7 +95,7 @@ Add export/import functionality to save student data as a file.
 📝 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 ©️ Copyright
-© 2025 [Your Name]. All rights reserved.This project is intended for educational purposes and personal portfolio use. Unauthorized distribution or commercial use is prohibited without permission.
+© 2025 [Sarthakbhai395]. All rights reserved.This project is intended for educational purposes and personal portfolio use. Unauthorized distribution or commercial use is prohibited without permission.
 🙌 Acknowledgments
 
 Thanks to the TypeScript community for excellent documentation and resources.
